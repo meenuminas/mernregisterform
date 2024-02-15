@@ -39,6 +39,9 @@ function Regis() {
       }
 
   }
+  const handleCancel = () => {
+    setStudentInputdata({ firstname:"", lastname:"", address:"", email:"", gender:"", mobile:"", password:"", dob:"", course:""});
+  }
     
   return (
     <div className='text-center ff justify-content-center align-items-center' style={{}}>
@@ -112,7 +115,7 @@ function Regis() {
             </Form.Select>
           </Form.Group>
        <Button onClick={handleRegister} variant="outline-info" className='text-black'>Register</Button>
-       <Button  variant="outline-secondary" className='ms-4 text-dark'>Cancel</Button>
+       <Button onClick={handleCancel} variant="outline-secondary" className='ms-4 text-dark'>Cancel</Button>
             </div>
        
        
