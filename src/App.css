@@ -1,0 +1,21 @@
+body{
+  font-family: "Protest Riot", sans-serif;
+}
+.navbar{
+  background:#7483da;
+
+}
+.bb{
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+}
+.hh{
+  font-family: "Protest Riot", sans-serif;
+}
+.ff{
+  background-color: #cba2c7;
+  border-radius: 40px;
+}
+.pp{
+  font-family: "Niconne", cursive;
+}
